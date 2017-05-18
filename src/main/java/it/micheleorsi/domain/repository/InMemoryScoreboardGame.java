@@ -25,7 +25,7 @@ public class InMemoryScoreboardGame implements ScoreboardGame
   @Override
   public void markScoreFor(Player player)
   {
-    display.println(player+" scores 1 point!");
+    display.println(player+" scored 1 point!");
     Integer playerScore = score.compute(player, (k, v) -> (v == null) ? 1 : v + 1);
     display.println("TOTAL SCORE: "+score.entrySet()+"\n");
     if(playerScore.equals(pointsToWin))

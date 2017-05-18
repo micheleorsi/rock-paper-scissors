@@ -29,7 +29,7 @@ public class RPSConsoleUser implements Player<RPSGesture>
   @Override
   public String toString()
   {
-    return "[Console]";
+    return "[You]";
   }
 
   @Override

@@ -19,7 +19,7 @@ public class RPSRandomConsoleUser extends RPSRandomUser
   public RPSGesture raise()
   {
     RPSGesture gesture = super.raise();
-    printStream.println(this+" raises a "+gesture);
+    printStream.println(this+" raised a "+gesture);
     return gesture;
   }
 }

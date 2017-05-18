@@ -10,7 +10,7 @@ public class RPSRandomUser implements Player<RPSGesture>
   @Override
   public String toString()
   {
-    return "[Random."+hashCode()+"]";
+    return "[Computer-Random."+hashCode()+"]";
   }
 
   @Override
